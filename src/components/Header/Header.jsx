@@ -1,5 +1,5 @@
 import React from "react";
-// import './Header.css'
+import "./Header.css";
 import homeLogo from "../../assets/Vectorhome-logo.svg";
 import heart from "../../assets/Vectorheart.png";
 import menu from "../../assets/Vectormenu.png";
