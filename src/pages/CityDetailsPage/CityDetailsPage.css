@@ -1,411 +1,376 @@
-.city-details-container{
-    min-height: 100vh;
-    position: relative;
+.city-details-container {
+  min-height: 100vh;
+  position: relative;
 }
 
-.page-container{
-    position: relative;
+.page-container {
+  position: relative;
 }
 
-.select-container{
-    position: absolute;
-    top: -200px;
-    left: 10%;
-    display: flex;
-    justify-content: space-between;
+.select-container {
+  position: absolute;
+  top: -200px;
+  left: 10%;
+  display: flex;
+  justify-content: space-between;
 
-    width: 80%;
-    margin: 0 auto;
-    padding: 30px 20px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px 20px;
 
-    background-color: white;
-    box-shadow: 0px 4px 20px 0px #00000014;
-    border-radius: 20px;
+  background-color: white;
+  box-shadow: 0px 4px 20px 0px #00000014;
+  border-radius: 20px;
 }
 
-.selector{
-    display: flex;
-    flex-direction: column;
+.selector {
+  display: flex;
+  flex-direction: column;
 }
 
-select{
-    width: 266px;
-    padding: 10px;
-    color:#CED3D8;
-    border: 1px solid #CED3D8;
-    border-radius: 10px;
-    margin-top: 10px;
-}
-    
-    /* --------- property container & cards --------- */
-
-.property-container-header{
-    margin-top: 5vh;
-    margin-left: 10%;
-    text-align: left;
-    font-size: 2.25rem;
-    font-weight: 500;
-
-    margin-top: 125px;
+select {
+  width: 266px;
+  padding: 10px;
+  color: #ced3d8;
+  border: 1px solid #ced3d8;
+  border-radius: 10px;
+  margin-top: 10px;
 }
 
-.properties-container{
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    justify-items: center;
-    align-content: space-evenly;
-    align-items: center;
-    position: relative;
-    max-width: 80vw;
-    margin: 70px auto;
+/* --------- property container & cards --------- */
+
+.property-container-header {
+  margin-top: 5vh;
+  margin-left: 10%;
+  text-align: left;
+  font-size: 2.25rem;
+  font-weight: 500;
+
+  margin-top: 125px;
 }
 
-.property-card{
-    display: flex;
-    flex-direction: column;
-
-    border: solid 1px #CED3D8;
-    border-radius: 15px;
+.properties-container {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+  position: relative;
+  max-width: 80vw;
+  margin: 70px auto;
 }
 
-.property-card-img{
-width: 400px;
-height: auto;
+.property-card {
+  display: flex;
+  flex-direction: column;
 
-border-radius: 15px 15px 0 0;
+  border: solid 1px #ced3d8;
+  border-radius: 15px;
 }
 
+.property-card-img {
+  width: 400px;
+  height: auto;
 
-.blue-info{
-    display: flex;
-    justify-content: space-between;
-    
-    background-color: #3A5295;
-    color: white;
-    padding: 15px 15px;
+  border-radius: 15px 15px 0 0;
 }
 
-.bills{
-    display: flex;
-    flex-direction: column;
+.blue-info {
+  display: flex;
+  justify-content: space-between;
 
+  background-color: #3a5295;
+  color: white;
+  padding: 15px 15px;
 }
 
-.price{
-    font-size: 24px;
+.bills {
+  display: flex;
+  flex-direction: column;
 }
 
-.text{
-    font-size: 12px;
-    width: 100%;
+.price {
+  font-size: 24px;
 }
 
-.icons{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-    width: 40%;
+.text {
+  font-size: 12px;
+  width: 100%;
 }
 
-.bath{
-    display: flex;
-    justify-content: center;
-    width: 50%;
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 40%;
 }
 
-
-
-.bed{
-    display: flex;
-    width: 50%;
-    justify-content: center;
+.bath {
+  display: flex;
+  justify-content: center;
+  width: 50%;
 }
 
-.bed-icon, .bath-icon{
-    width: 24px;
-    padding-bottom: 2px;
-    height: auto;
+.bed {
+  display: flex;
+  width: 50%;
+  justify-content: center;
 }
 
-.count{
-    align-self: center;
-    font-size: 16px;
-    padding-left: 5px;
+.bed-icon,
+.bath-icon {
+  width: 24px;
+  padding-bottom: 2px;
+  height: auto;
 }
 
-.add-details{
-    display: flex;
-    justify-content: space-between;
-
-    padding: 20px 15px 15px 15px;
+.count {
+  align-self: center;
+  font-size: 16px;
+  padding-left: 5px;
 }
 
-.add-details-child{
-    font-size: 16px;
-    font-weight: 500;
+.add-details {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 20px 15px 15px 15px;
 }
 
-.address{ 
-    display: flex;
-    padding: 15px;
-
-    align-items: center;
+.add-details-child {
+  font-size: 16px;
+  font-weight: 500;
 }
 
-.pin{
-    padding-bottom: 3px;
-    color:#3A5295
+.address {
+  display: flex;
+  padding: 15px;
+
+  align-items: center;
 }
 
-.address-text{
-    padding-left: 5px;
+.pin {
+  padding-bottom: 3px;
+  color: #3a5295;
 }
 
-.twelve{
-    font-size: 12px;
+.address-text {
+  padding-left: 5px;
 }
 
-.view-home-link{
-    display: flex;
-    justify-content: center;
-
-    text-decoration: none;
-    color: black;
-
-    padding: 15px 0;
-    border-top: solid 1px #CED3D8;
+.twelve {
+  font-size: 12px;
 }
 
-.view-home-text{
-    padding-left: 10px;
+.view-home-link {
+  display: flex;
+  justify-content: center;
+
+  text-decoration: none;
+  color: black;
+
+  padding: 15px 0;
+  border-top: solid 1px #ced3d8;
 }
 
-    /* --------- property container & cards --------- */
+.view-home-text {
+  padding-left: 10px;
+}
 
-    /* --------------- middle container ------- */
+/* --------- property container & cards --------- */
 
-    .middle-container{
-        display: flex;
-        justify-content: center;
+/* --------------- middle container ------- */
 
-        border-radius: 15px;
-        width: 85vw;
-        padding: 50px;
-        margin: 0 auto 40px auto;
-        background-color: #F6FAFD;        
-    }
+.middle-container {
+  display: flex;
+  justify-content: center;
 
-    .middle-container-text{
-        align-self:center;
-    }
+  border-radius: 15px;
+  width: 85vw;
+  padding: 50px;
+  margin: 0 auto 40px auto;
+  background-color: #f6fafd;
+}
 
-    .middle-container-header{
-        font-size: 36px;
-    }
+.middle-container-text {
+  align-self: center;
+}
 
-    .middle-container-paragraph{
-        padding-top: 15px;
-        font-size: 20px;
-    }
+.middle-container-header {
+  font-size: 36px;
+}
 
-    .middle-container-img{
-        max-width: 560px;
-        height: auto;
+.middle-container-paragraph {
+  padding-top: 15px;
+  font-size: 20px;
+}
 
-        padding-top: 20px;
-        padding-left: 30px;
-    }
+.middle-container-img {
+  max-width: 560px;
+  height: auto;
 
-    
+  padding-top: 20px;
+  padding-left: 30px;
+}
 
 /* ---------------------------------- TABLET STYLING ------------------------------------- */
 @media only screen and (max-width: 1500px) {
-
-    .property-card-img{
-        width: 100%;
-        height: auto;
-        }
-
+  .property-card-img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 /* ---------------------------------- TABLET STYLING ------------------------------------- */
 @media only screen and (max-width: 1401px) {
+  .select-container {
+    width: 80%;
+    height: auto;
+    /* left: 110px; */
+  }
 
-    .select-container{
-        width: 80%;
-        height: auto;
-        /* left: 110px; */
-        }
-
-        
-        select{
-            max-width: 200px;
-        }
+  select {
+    max-width: 200px;
+  }
 }
 
 @media only screen and (max-width: 1140px) {
+  select {
+    max-width: 150px;
+  }
 
-    select{
-        max-width: 150px;
-    }
-
-    .middle-container{
-        flex-direction: column;
-        align-items: center;
-        }
-
-        .property-card-img{
-            max-width: 560px;
-            height: auto;
-            }
-
-}
-
-
-    /* ----------------- grid break --------------- */
-@media only screen and (max-width: 950px) {
-
-    .properties-container{
-        display: grid;
-        gap: 1rem;
-        grid-template-columns: repeat(2, 1fr);
-
-    
-    }
-
-    .select-container{
-        width: 700px;
-        /* left: 100px; */
-
-        justify-items: center;
-        padding: 40px 20px;
-    }
-
-    
-
-        /* ----------------- grid break --------------- */
-
-@media only screen and (max-width: 870px) {
-
-    .select-container{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 20px 30px;
-        padding-bottom: 40px;
-       width:500px;
-       /* left: 180px; */
-        
-    }
-
-    .selector{
-        padding-top: 10px;
-    }
-
-
-    .property-container-header{
-        margin-top: 22vh;
-    }
-
-   .middle-container{
+  .middle-container {
     flex-direction: column;
     align-items: center;
-   }
-    
-.middle-container-img{
+  }
+
+  .property-card-img {
+    max-width: 560px;
+    height: auto;
+  }
+}
+
+/* ----------------- grid break --------------- */
+@media only screen and (max-width: 950px) {
+  .properties-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .select-container {
+    width: 700px;
+    /* left: 100px; */
+
+    justify-items: center;
+    padding: 40px 20px;
+  }
+}
+/* ----------------- grid break --------------- */
+
+@media only screen and (max-width: 870px) {
+  .select-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 30px;
+    padding-bottom: 40px;
+    width: 500px;
+    /* left: 180px; */
+  }
+
+  .selector {
+    padding-top: 10px;
+  }
+
+  .property-container-header {
+    margin-top: 22vh;
+  }
+
+  .middle-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .middle-container-img {
     max-width: 560px;
     padding-left: 0;
+  }
 }
 
+/* ----------------- grid break --------------- */
+
+@media only screen and (max-width: 830px) {
+  .select-container {
+    /* left: 150px; */
+  }
+
+  .middle-container-img {
+    width: 500px;
+  }
 }
 
-        /* ----------------- grid break --------------- */
+/* ----------------- grid break --------------- */
 
-        @media only screen and (max-width: 830px) {
+@media only screen and (max-width: 730px) {
+  .select-container {
+    /* left: 110px; */
+  }
+}
 
-            .select-container{
-                /* left: 150px; */
-            }
+/* ----------------- grid break --------------- */
 
-            .middle-container-img{
-                width: 500px;
-            }
-        }
+@media only screen and (max-width: 680px) {
+  .select-container {
+    /* left: 90px; */
+  }
 
-
-        /* ----------------- grid break --------------- */
-
-        @media only screen and (max-width: 730px) {
-
-            .select-container{
-                /* left: 110px; */
-            }
-        }
-
-        /* ----------------- grid break --------------- */
-
-        @media only screen and (max-width: 680px) {
-
-            .select-container{
-                /* left: 90px; */
-            }
-
-            .middle-container-img{
-                width: 400px;
-            }
-        }
-
+  .middle-container-img {
+    width: 400px;
+  }
+}
 
 /* ---------------------------------- MOBILE STYLING ------------------------------------- */
 @media only screen and (max-width: 650px) {
+  .select-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
 
-    .select-container{
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-    
-        width: 390px;
-        /* left: 133px; */
+    width: 390px;
+    /* left: 133px; */
 
-        padding: 20px 0;
-    }
+    padding: 20px 0;
+  }
 
-    select{
-        width: 333px;
-    }
+  select {
+    width: 333px;
+  }
 
-    .property-container-header{
-        margin-top: 39vh;
-    }
+  .property-container-header {
+    margin-top: 39vh;
+  }
 
+  .properties-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    .properties-container{
-        display: grid;
-        gap: 1rem;
-        grid-template-columns: repeat(1, 1fr);
-        
-    
-    }
-
-
-    .property-card-img{
-        width: 80vw;
-        height: auto;
-        }
-
-
-
+  .property-card-img {
+    width: 80vw;
+    height: auto;
+  }
 }
-    /* ----------------- grid break --------------- */
+/* ----------------- grid break --------------- */
 
-    @media only screen and (max-width: 530px) {
+@media only screen and (max-width: 530px) {
+  .select-container {
+    /* left: 90px; */
+  }
 
-        .select-container{
-            /* left: 90px; */
-        }
-
-        .middle-container-img{
-            width: 300px;
-        }
-    }
+  .middle-container-img {
+    width: 300px;
+  }
+}
