@@ -1,8 +1,3 @@
-.footer-container {
-  display: flex;
-  flex-direction: column;
-}
-
 .blue-block {
   display: flex;
   justify-content: space-evenly;
