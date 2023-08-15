@@ -1,5 +1,5 @@
 import React from "react";
-import "./FooterStyles.css";
+import "./Footer.css";
 import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 
 function Footer() {
