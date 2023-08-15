@@ -1,6 +1,6 @@
 import React from "react";
-import "./Footer.css";
-// import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
+import "./FooterStyles.css";
+import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 
 function Footer() {
   return (
@@ -19,15 +19,15 @@ function Footer() {
             <h3>Let's Socialize</h3>
             <div className="socials">
               <a href="facebook.com" className="social-link">
-                {/* <BsFacebook /> */}
+                <BsFacebook />
                 <p>Facebook</p>
               </a>
               <a href="instagram.com" className="social-link">
-                {/* <BsInstagram /> */}
+                <BsInstagram />
                 <p>Instagram</p>
               </a>
               <a href="twitter.com" className="social-link">
-                {/* <BsTwitter /> */}
+                <BsTwitter />
                 <p>Twitter</p>
               </a>
             </div>
